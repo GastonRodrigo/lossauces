@@ -3,6 +3,86 @@
 }
 */
 
-h3{
-    color: green;
-}
+
+body {
+    background-color: #F5D6C6;
+    border-radius: 10px;
+    width: 97%;
+    height: 95%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    justify-content: center;
+    /* color: unset; ES EL COLOR DEL TEXTO EN BODY */
+  }
+  
+  h1, h2, h3 {
+    background-color: #FFE5D4;
+    /* color: unset; ES EL COLOR DEL TEXTO EN H1 H2 H3 */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  a {
+    color: #E87C3E;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    text-align:right;
+    justify-content:center;
+    align-items:center;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #955E42;
+    text-align: center;
+    height: 50px;
+  }
+  
+  footer a {
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+  }
+
+
+    header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+   
+  } 
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .botonwp {
+        position: fixed;
+        right: 0px;
+        bottom: 110px;
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+    }
+
+
+    #columna1 {
+        position: absolute;
+        left: 2%;
+        width: 45%;
+    }
+    #columna2 {
+        position: absolute;
+        margin-left: 50%;
+        width: 45%;
+        bottom: absolute;
+    }
