@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: #F5D6C6;
+    background-color: #f5eeea;
     border-radius: 10px;
     width: 97%;
     height: 95%;
@@ -24,7 +24,7 @@ body {
   }
   
   a {
-    color: #E87C3E;
+    color: #9a4a0d;
     border-radius: 5px;
     padding: 4px;
     text-decoration: none;
@@ -73,7 +73,9 @@ body {
         height: 50px;
         z-index: 100;
     }
-
+    .columnas {
+      margin-bottom: 500px;;
+    }
 
     #columna1 {
         position: absolute;
