@@ -75,7 +75,11 @@ body {
   nav a:hover {
     color:#532807;
   }
-
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   @media (max-width: 700px) {
     header {
       flex-direction: column;
@@ -89,6 +93,24 @@ body {
     .logomenu {
       position: absolute;
       height: 90px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+    }
+  
+    label, input {
+      margin: 10px 0;
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    button[type="submit"] {
+      margin-top: 10px;
+      width: 100%;
+      max-width: 300px;
     }
   }
 
@@ -132,3 +154,4 @@ body {
       padding-top: 5px;
       padding-bottom: 2px;
     }
+
