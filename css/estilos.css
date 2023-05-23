@@ -84,6 +84,14 @@ body {
   nav li {
     display: inline;
   }
+
+  nav li:hover > ul {
+    display: block;
+  }
+
+  .nav > li {
+    float: left;
+  }
   form {
     display: flex;
     flex-direction: column;
