@@ -14,3 +14,6 @@ document.addEventListener('click', (event) => {
         menuItems.classList.remove('active');
     }
 });
+
+
+// EL SCRIPT FUE GENERADO A PARTIR DE BUSQUEDA WEB CON AYUDA DE STACKOVERFLOW Y CHATGPT
