@@ -65,7 +65,7 @@ body {
       font-family: sans-serif;
   } 
   .logomenu {
-    display: flex;
+    display: inline-flex;
     height: 100px;
   }
   .logomenu:hover {
@@ -130,12 +130,76 @@ body {
         bottom: absolute;
     }
 
+
+
+
+    .category-bar {
+      background-color: #f8f8f8;
+    }
+    
+    .category-list {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .category-item {
+      position: relative;
+    }
+    
+    .category-link {
+      display: block;
+      padding: 10px 15px;
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .sub-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f8f8f8;
+      min-width: 200px;
+    }
+    
+    .sub-menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sub-menu li {
+      padding: 10px 15px;
+    }
+    
+    .category-item:hover .sub-menu {
+      display: block;
+    }
+    
+    
+    
+    
+    .color-effect {
+      background-color: #f8f8f8;
+      transition: background-color 0.3s ease;
+    }
+    
+    .color-effect:hover {
+      background-color: #FFE5D4; 
+    }
+    
+
     .card {
       perspective: 1000px;
-      margin-bottom: 20px;
       background-color: #f9f9f9;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 40);
+      border: #f8f8f8;
+      margin-left: 10px;
+
       
       
     }
@@ -225,6 +289,9 @@ body {
       
       header {
         flex-direction: column;
+      }
+      header .logomenu {
+        align-content: center;
       }
       nav {
         padding: 70px;
