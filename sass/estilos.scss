@@ -1,0 +1,39 @@
+@use './assets/header';
+@use './assets/footer';
+@use 'wp';
+@use 'index';
+@use 'productos';
+@use 'contacto';
+@use 'destacados';
+@use 'nosotros';
+@use 'media-queries';
+
+
+body {
+    background-color: #f5eeea;
+    border-radius: 10px;
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    justify-content: center;
+    font-family: sans-serif;
+    a {
+      color: #9a4a0d;
+      border-radius: 5px;
+      padding: 4px;
+      text-decoration: none;
+      text-align:right;
+      justify-content:center;
+      align-items:center;
+    }
+  }
+
+    
+  h1, h2, h3 {
+    background-color: #FFE5D4;
+    /* color: unset; ES EL COLOR DEL TEXTO EN H1 H2 H3 */
+    border-radius: 10px;
+    padding: 10px;
+  }

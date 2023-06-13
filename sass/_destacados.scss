@@ -1,0 +1,16 @@
+body {
+    #carouseldestacados {
+        .carousel-indicators {
+            background-color: #9a4a0d;
+        }
+        .carousel-inner {
+            height: 500px;
+            img {
+                width: 100%;
+                max-height: 460px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+

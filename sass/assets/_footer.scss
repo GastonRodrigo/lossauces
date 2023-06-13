@@ -1,0 +1,19 @@
+  #end {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #955E42;
+    text-align: center;
+    height: 50px;
+    .sociales {
+      a {
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 4px;
+        text-decoration: none;
+        text-align:center;
+        justify-content: center;
+        align-items:center;
+      }
+    } 
+  }
