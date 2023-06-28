@@ -13,10 +13,14 @@
             position: relative;
 
             .category-link {
-                display: block;
+                display: flex;
                 padding: 10px 15px;
                 color: #333;
                 text-decoration: none;
+
+                &:hover {
+                    color: #9a4a0d;
+                }
             }
 
             .sub-menu {
@@ -42,7 +46,7 @@
 
 
 .category-item:hover .sub-menu {
-    display: block;
+    display: flex;
 }
 }
 

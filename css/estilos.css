@@ -131,10 +131,13 @@ body a .botonwp {
   position: relative;
 }
 .category-bar .category-list .category-item .category-link {
-  display: block;
+  display: flex;
   padding: 10px 15px;
   color: #333;
   text-decoration: none;
+}
+.category-bar .category-list .category-item .category-link:hover {
+  color: #9a4a0d;
 }
 .category-bar .category-list .category-item .sub-menu {
   display: none;
@@ -153,7 +156,7 @@ body a .botonwp {
   padding: 10px 15px;
 }
 .category-bar .category-item:hover .sub-menu {
-  display: block;
+  display: flex;
 }
 
 .grid-productos {
