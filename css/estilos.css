@@ -318,6 +318,11 @@ iframe {
     align-items: center;
     margin-left: 15%;
   }
+  .logomenu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 body {
   background-color: #f5eeea;
